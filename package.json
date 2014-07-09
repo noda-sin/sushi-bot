@@ -1,0 +1,14 @@
+{
+  "name": "sushi_bot",
+  "version": "0.0.1",
+  "description": "susi",
+  "main": "index.js",
+  "author": "OopsMouse",
+  "license": "MIT",
+  "dependencies": {
+    "bitly": "^1.2.5",
+    "twit": "^1.1.15",
+    "event-service": "https://github.com/OopsMouse/event-service/tarball/master",
+    "config": "^0.4.36"
+  }
+}
