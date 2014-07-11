@@ -34,7 +34,6 @@ var postEventToTwitter = function(event, callback) {
 
 (function run() {
   eventService(KEYWORDS, function(err, events) {
-    console.log(events);
     if (err) {
       console.error(err);
       return;
