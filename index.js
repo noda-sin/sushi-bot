@@ -1,4 +1,5 @@
-var util    = require('util')
+var util     = require('util')
+  , punycode = require('punycode');
 
 var config  = require('config')
   , Twitter = require('twit')
@@ -7,7 +8,7 @@ var config  = require('config')
 var eventService = require('event-service');
 
 var KEYWORDS = [ 'ヒカリエ', 'dena' ]
-  , SUSHI    = '🍣';
+  , SUSHI    = punycode.decode('9i8h');
 
 var postEventToTwitter = function(event, callback) {
 
